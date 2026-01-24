@@ -11,7 +11,7 @@ for i in range(1,rows):
     data = np.vstack((data, data_row+ i*bias))
 print(data.shape)
 
-colors = color_gradient_norm((255, 0, 0), (0, 0, 255), rows)
+colors = color_gradient_norm((0, 255, 255), (0, 0, 255), rows)
 
 plt.figure()
 for i in range(rows):

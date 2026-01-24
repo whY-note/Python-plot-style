@@ -27,4 +27,5 @@ plt.figure()
 for i in range(num):
     plt.plot(data[i,:], color = colors[i], label = f"{i+1}/x")
 plt.legend()
+plt.savefig("demo/frackx.png")
 plt.show()

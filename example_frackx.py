@@ -25,7 +25,7 @@ colors = color_gradient_norm((255, 0, 0), (0, 0, 255), num)
 
 plt.figure()
 for i in range(num):
-    plt.plot(data[i,:], color = colors[i], label = f"{i+1}/x")
+    plt.plot(x, data[i,:], color = colors[i], label = f"{i+1}/x")
 plt.legend()
 plt.savefig("demo/frackx.png")
 plt.show()

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from plot_colors import color_gradient_norm
 
-num = 10
+num = 5
 def gauss(x, mu=0, sigma=1):
     return 1/(np.sqrt(2 * np.pi) * sigma) *np.exp(-(x-mu)**2/(2*sigma**2))
  

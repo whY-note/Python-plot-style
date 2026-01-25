@@ -1,0 +1,86 @@
+Simple:
+  # ===== 字体 =====
+  font:
+    font.family: serif
+    font.serif:
+      - Times New Roman
+    mathtext.fontset: stix
+    font.size: 10
+
+  # ===== 图尺寸 =====
+  figsize:
+    figure.figsize: [3.5, 2.6]
+
+  # ===== 分辨率 =====
+  dpi:
+    figure.dpi: 300
+    savefig.dpi: 300
+
+  # ===== 线条 =====
+  linestyle:
+    lines.linewidth: 1.2
+    lines.markersize: 5
+
+  # ===== 坐标轴 =====
+  axis:
+    axes.linewidth: 1.0
+    axes.labelsize: 10
+    axes.titlesize: 10
+    axes.spines.top: true
+    axes.spines.right: true
+
+  # ===== 刻度 =====
+  tick:
+    xtick.labelsize: 9
+    ytick.labelsize: 9
+    xtick.direction: in
+    ytick.direction: in
+    xtick.major.size: 4
+    ytick.major.size: 4
+
+  # ===== 图例 =====
+  legend:
+    legend.fontsize: 9
+    legend.frameon: true
+
+  # ===== 保存 =====
+  save_settings:
+    savefig.bbox: tight
+    savefig.pad_inches: 0.02
+
+  # ===== 配色 =====
+  colors:
+    - "#0072B2"
+    - "#D55E00"
+    - "#009E73"
+    - "#CC79A7"
+    - "#E69F00"
+    - "#56B4E9"
+    - "#B2182B"
+    - "#F0E442"
+    - "#999999"
+    - "#332288"
+    - "#88CCEE"
+    - "#000000"
+
+Cold:
+  # ===== 配色 =====
+  colors:
+    - "#0B3C5D"
+    - "#005F8F"
+    - "#0072B2"
+    - "#4FA3D1"
+    - "#A7CFE8"
+
+Purple:
+  # ===== 配色 =====
+  colors:
+    - "#4B1D6B"
+    - "#6A1E9A"
+    - "#8F3BB8"
+    - "#C44E52"
+    - "#E6A4A4"
+
+# ===============
+# add more styles
+# ===============
